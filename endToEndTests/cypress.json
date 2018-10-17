@@ -1,5 +1,6 @@
 {
-   
+   "screenshotsFolder": "C:/Users/Uday/Desktop/oct16Latest/img",
+"videosFolder":"C:/Users/Uday/Desktop/oct16Latest/video",
     "video": true,
    "defaultCommandTimeout": 10000,
   "pageLoadTimeout": 900000,
