@@ -5,7 +5,7 @@ const userUtils = require('../../../utils/userUtils');
 
 
 describe('User actions with MainView section', function () {
-    it('AMI:1859:4, Validations of all the fields in Main view sections', function () {
+    it('AMI1', function () {
 
         // Login to AMI.
         var userName = genericUtils.csvFile('userData.csv', 2, 0);
@@ -81,7 +81,7 @@ describe('User actions with MainView section', function () {
     });
 
 
-    it('AMI:1860:5,AMI:1861:6,AMI:1862:7,AMI:1863:8 Validations of all the fields with its user data in Main view sections', function () {
+    it('AMI2', function () {
 
         var userName = genericUtils.csvFile('userData.csv', 2, 0);
         var userGroup = genericUtils.csvFile('userData.csv', 1, 3);
