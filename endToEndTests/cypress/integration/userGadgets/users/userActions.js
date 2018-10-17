@@ -5,7 +5,7 @@ const userUtils = require('../../../utils/userUtils');
 
 
 describe('User actions with Usergadgets section', function () {
-    it('AMI:1857:2, Clicks on user group dropdown and validates list of user groups and blank space', function () {
+    it('AMI3', function () {
 
         // Login to AMI.
         var userName = genericUtils.csvFile('userData.csv', 2, 0);
@@ -30,7 +30,7 @@ describe('User actions with Usergadgets section', function () {
         loginUtils.logoutFromAMI();
         userUtils.waitForObject(timeout);
     });
-    it('AMI:1856:1, Clicks on user group dropdown and validates Main,Groups,Languages,Workspaces,Attributes,Permissions,User Snapshot sections', function () {
+    it('AMI4', function () {
 
         // Login to AMI.
         var userName = genericUtils.csvFile('userData.csv', 2, 0);
@@ -84,7 +84,7 @@ describe('User actions with Usergadgets section', function () {
         userUtils.waitForObject(timeout);
     });
  
-    it('AMI:1858:3, Clicks on user name dropdown and validates user name for the selected user group', function () {
+    it('AMI5', function () {
         var userName = genericUtils.csvFile('userData.csv', 2, 0);
         var userGroup = genericUtils.csvFile('userData.csv', 1, 3);
         var user = genericUtils.csvFile('userData.csv', 2, 4);
